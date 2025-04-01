@@ -1,0 +1,61 @@
+Protel Design System Design Rule Check
+PCB File : D:\project\PT\µÚ15ÆÚ-ORIN\SCH\PT-15-V1.0\PT-15-V1.0.PcbDoc
+Date     : 2024/12/31
+Time     : 1:11:53
+
+Processing Rule : Rule
+Rule Violations :0
+
+Processing Rule : Net Antennae (Tolerance=0mil) (All)
+Rule Violations :0
+
+Processing Rule : Hole To Hole Clearance (Gap=10mil) (All),(All)
+Rule Violations :0
+
+Processing Rule : Hole Size Constraint (Min=1mil) (Max=100mil) (All)
+   Violation between Hole Size Constraint (125.984mil > 100mil) : Pad J2-MP1(8325.788mil,3344.685mil)  Multi-Layer
+   Violation between Hole Size Constraint (125.984mil > 100mil) : Pad J1-MP1(8335.63mil,2007.874mil)  Multi-Layer
+   Violation between Hole Size Constraint (125.984mil > 100mil) : Pad M1-1(2138.387mil,4036.414mil)  Multi-Layer
+   Violation between Hole Size Constraint (125.984mil > 100mil) : Pad M3-1(2138.387mil,926.178mil)  Multi-Layer
+   Violation between Hole Size Constraint (125.984mil > 100mil) : Pad M2-1(5760.435mil,4036.414mil)  Multi-Layer
+   Violation between Hole Size Constraint (125.984mil > 100mil) : Pad M4-1(5760.435mil,926.178mil)  Multi-Layer
+   Violation between Hole Size Constraint (118.11mil > 100mil) : Pad Free-1(405.512mil,1954.724mil)  Multi-Layer
+   Violation between Hole Size Constraint (511.811mil > 100mil) : Pad Free-1(405.512mil,1954.724mil)  Multi-Layer
+   Violation between Hole Size Constraint (118.11mil > 100mil) : Pad Free-2(1300.197mil,1954.724mil)  Multi-Layer
+   Violation between Hole Size Constraint (511.811mil > 100mil) : Pad Free-2(1300.197mil,1954.724mil)  Multi-Layer
+   Violation between Hole Size Constraint (118.11mil > 100mil) : Pad Free-3(405.512mil,459.646mil)  Multi-Layer
+   Violation between Hole Size Constraint (511.811mil > 100mil) : Pad Free-3(405.512mil,459.646mil)  Multi-Layer
+   Violation between Hole Size Constraint (118.11mil > 100mil) : Pad Free-4(1300.197mil,459.646mil)  Multi-Layer
+   Violation between Hole Size Constraint (511.811mil > 100mil) : Pad Free-4(1300.197mil,459.646mil)  Multi-Layer
+   Violation between Hole Size Constraint (114.174mil > 100mil) : Pad J15-2(8779.525mil,1587.606mil)  Multi-Layer
+   Violation between Hole Size Constraint (114.174mil > 100mil) : Pad J15-1(8779.527mil,1871.066mil)  Multi-Layer
+Rule Violations :16
+
+Processing Rule : Width Constraint (Min=5mil) (Max=100mil) (Preferred=5mil) (All)
+Rule Violations :0
+
+Processing Rule : Power Plane Connect Rule(Direct Connect )(Expansion=20mil) (Conductor Width=10mil) (Air Gap=10mil) (Entries=4) (All)
+Rule Violations :0
+
+Processing Rule : Clearance Constraint (Gap=5mil) (All),(All)
+   Violation between Pad J4-1(292.324mil,3834.645mil)  Top Layer and 
+                     Arc (250.194mil,3822.435mil)  Keep-Out Layer
+   Violation between Area Fill (269.685mil,3822.835mil) (314.961mil,3901.575mil)  Top Layer and 
+                     Arc (250.194mil,3822.435mil)  Keep-Out Layer
+   Violation between Pad J4-12(292.324mil,3582.675mil)  Top Layer and 
+                     Arc (250.194mil,3594.875mil)  Keep-Out Layer
+   Violation between Track (2227.572mil,3371.273mil)(2346.517mil,3371.273mil)  Top Layer and 
+                     Via (2306.145mil,3356.981mil) Top Layer to Bottom Layer
+   Violation between Arc (250.194mil,3822.435mil)  Keep-Out Layer and 
+                     Area Fill (269.685mil,3822.835mil) (314.961mil,3901.575mil)  Top Layer
+Rule Violations :5
+
+Processing Rule : Un-Routed Net Constraint ( (All) )
+Rule Violations :0
+
+Processing Rule : Short-Circuit Constraint (Allowed=No) (All),(All)
+Rule Violations :0
+
+
+Violations Detected : 21
+Time Elapsed        : 00:00:34
